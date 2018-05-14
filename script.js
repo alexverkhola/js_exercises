@@ -1,6 +1,3 @@
-var str = '#'
-
-while (str.length <= 7) {
+for (var str = '#'; str.length <= 7; str += '#') {
     console.log(str)
-    str = str + '#'
 }
